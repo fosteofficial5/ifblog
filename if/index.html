@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typewriter Effect with CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+    /* Typewriter effect */
+.intro-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: nowrap;           /* Ensures the text stays on one line */
+  overflow: hidden;              /* Hides the text until it's fully typed */
+  border-right: 3px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
+  display: inline-block;
+  padding-right: 5px;
+  animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+</style>
+  <header class="intro">
+    <h1 class="intro-title">Welcome to iF Studio</h1>
+  </header>
+
+</body>
+</html>

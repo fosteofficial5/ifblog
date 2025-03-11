@@ -1,270 +1,784 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico">
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <!-- font-family: 'Roboto Condensed', sans-serif; -->
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
-  <!-- font-family: 'Oxygen', sans-serif; -->
-  <link rel="stylesheet" type="text/css" href="sass/style.css" >
-  <!-- Twitter Card -->
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <title>iF iMAGE -Portfolio</title>
+<head>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="favicon.ico" type="icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="iSHIMWE FAUSTIN" content="" />
+  <meta name="Photographer" content="" />
+  <meta name="Editor" content="" />
+
+  <title>iF Studio</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href=" css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-  <nav class="site-header">
-    <div class="nav-logo">
-      <a href="index.html">
-        <img src="assets/images/logo.png" alt="logo" width="314" height="60">
-      </a>
+  <header>
+    <div class="hero">
+      <h2 id="typewriter">Welcome to My Portfolio</h2>
+      <p>Check out my color grading projects and more.</p>
     </div>
-    <button class="hamburger"><img src="assets/images/menu.png" alt="menu toggle icon"></button>
-    <div class="nav-links">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonial">Testimonial</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  </header>
+  
+  
+  <header>
+    <div class="logo-container">
+        <img src="e.png" alt="Logo" class="logo">
     </div>
-  </nav><!-- .site-header -->
-  <section class="banner">
-    <div class="banner--content"
-    data-aos="fade-in"
-    data-aos-duration="2000"
-    >
-      <h3 class="name">iF iMAGE </h3>
-      <h1 class="designation">Freelance graphic designer</h1>
-      <p class="tagline">If you&apos;re writer or something else, change the title as per your profession.</p>
-    </div>    
-  </section><!-- .banner -->
-  <section class="promo">
-    <div class="content"
-    data-aos="fade-up"
-    data-aos-offset="50"
-    >
-      <h2>I bring your <span class="bold">beautifully</span> to your pics<span class="orange">.</span></h2>
-      <p>Great ideas, beautifully executed.</p>
+    <style>
+      header {
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    right: 0; /* Position it on the top-right */
+    width: 100%; /* Full width */
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end; /* Align contents to the right */
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-end; /* Ensure logo is on the right side */
+}
+
+.logo {
+    max-width: 100px; /* Adjust based on your logo size */
+}
+
+main {
+    margin-top: 80px; /* Add some space to avoid content being hidden under the header */
+}
+    </style>
+</header>
+  <header class="intro">
+    <div class="intro-content">
+        <h1 class="intro-title">Welcome to iF iMAGE Website!</h1>
+        <p class="intro-description">Your vision, our expertise, creating moments.</p>
+        <a href="#services" class="cta-button">Explore Services</a>
     </div>
-  </section>
-  <section id="about">
-    <div class="content">
-      <h2>About Me</h2>
-      <div class="about-container">
-        <div class="about-container-left"
-        data-aos="fade-up-right"
-        data-aos-duration="900"
-        >
-          <p>I am photographer, Logo design, 3d image manipulater & Editor of Image and if u want, i can teach u! .</p>
-          <h3>Location</h3>
-          <ul>
-            <li>Rwanda</li>
-            <li>Uganda</li>
-            <li>Tanzania</li>
-          </ul>
-          <p>Where u are we are Ready to give you Your opinion.</p>
-          <h4>I'am professional on My job</h4>
-          <p></p>
-        </div>
-        <div class="about-container-right"
-        data-aos="fade-up-left"
-        data-aos-duration="1500"
-        >
-          <img src="assets/images/headshot.jpg" alt="iF, headshot">
+</header>
+
+<section id="services">
+
+</section>
+<style>
+ 
+
+/* Hero/Intro Section */
+.intro {
+    position: relative;
+    background-image: url('e.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+
+.intro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(29, 27, 27, 0.527), rgba(0, 0, 0, 0.651));
+    pointer-events: none;
+    z-index: 1;
+    opacity: 50%;
+}
+
+.intro > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Content inside the intro */
+.intro-content {
+    opacity: 100;
+    transform: translateY(30px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Title Animation */
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-out forwards;
+    background: linear-gradient(45deg, #ffffff, #a1d414, #e522ff, #fd1d1d, #4c00ff); /* Instagram-like gradient */
+  background-clip: text; /* Applies the gradient only to the text */
+  color: transparent; /* Hides the original text color */
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Description Text Animation */
+.intro-description {
+    font-size: 24px;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards 1s; /* Delay after title */
+    
+}
+
+/* Call-to-action Button Animation */
+.cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #3498db;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Section below the intro (fade-in effect) */
+#services {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(if.png);
+}
+
+#services h2 {
+    font-size: 32px;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 1.5s; /* Delay for smooth appearance */
+}
+
+/* Keyframe animations */
+
+/* Fade-in effect for title and elements */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Fade-in + slide-up effect */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Slide-in from the left for title */
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+    </style>
+    <a href="about.html">
+    <button class="book-now-btn">Book Me Now</button>
+</a>
+<style>
+  /* Button Styling */
+.book-now-btn {
+  background-color: rgb(118, 141, 241); /* Tomato color */
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: inline-block; /* Make it fit content */
+  background-position: center;
+}
+
+/* Button Hover Effect */
+.book-now-btn:hover {
+  background-color: #225e81; /* Darker tomato color on hover */
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bigger shadow on hover */
+}
+
+/* Button Active Effect (when clicked) */
+.book-now-btn:active {
+  transform: translateY(2px); /* Slightly push down when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+</style>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="" href="about.html">About </a>
+                  <a class="" href="gallery.html">Gallery </a>
+                  <a class="" href="blog.html">Blog </a>
+                  <a class="" href="testimonial.html">Testimonial </a>
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html">
+              <span>
+                iF iMAGE
+              </span>
+            </a>
+            <div class="user_option">
+              <a href="#">
+                
+              </a>
+              <form class="form-inline ">
+                
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <section class=" slider_section position-relative">
+      <div class="container-fluid">
+        <div class="row slider-row">
+          <div class="col-lg-3 offset-lg-1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="detail-box">
+                    <h1>
+                      Like <br />
+                      Pro
+                    </h1>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page
+                    </p>
+                    <div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="detail-box">
+                    <h1>
+                      iF <br />
+                      iMAGE
+                    </h1>
+                    <p>
+                      Hi, I'm Foste, a passionate photographer specializing in portraits, weddings, or landscapes. I strive to capture authentic moments and turn them into timeless stories through my lens.
+                    </p>
+                    <div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel_control-box">
+                <div class="carousel_btn-container">
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li_one">01</li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="li_two">02</li>
+                  <li class="ol_design"></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 px-0">
+            <div class="img-box">
+              <img src="images/slider-img.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section><!-- #about -->
-  <section id="skill">
-    <div class="content skill--content">
-      <div class="left">
-        <h2>My skills &amp; expertise</h2
-        <p>Skilled in Photoshop, Lightroom, and other design tools, I specialize in retouching, color correction, manipulation, and graphic design.</p>
-      </div>
-      <div class="right">
-        <div class="item"
-        data-aos="flip-left"
-        data-aos-duration="1000"
-        >
-          <img src="assets/images/photoshop.png" alt="Photoshop">
-          <h3>Abode Photoshop</h3>
-          <p>Proficient in photo retouching, color correction, manipulation, and graphic design, I specialize in bringing ideas to life with precision and creativity.</p>
-        </div>
-        <div class="item"
-        data-aos="flip-right"
-        data-aos-duration="2000"
-        >
-          <img src="assets/images/illustrator.png" alt="Illustrator">
-          <h3>Abode Illustrator</h3>
-          <p>Creative and skilled graphic designer specializing in Adobe Illustrator, with a passion for vector art, logo design, and branding.</p>
-        </div>
-        <div class="item"
-        data-aos="flip-left"
-        data-aos-duration="1500"
-        >
-          <img src="assets/images/indesign.png" alt="InDesign">
-          <h3>Abode InDesign</h3>
-          <p>Skilled in creating professional magazines, brochures, flyers, eBooks, and marketing materials</p>
-        </div>
-      </div>
-    </div>
-  </section><!-- #skill -->
-  <section id="service">
-    <h2>Services I offer</h2>
-    <div class="content service--content" 
-    data-aos="fade-up"
-    data-aos-duration="3000"
-    >
-      <div class="item">
-        <h3>Logo design</h3>
-        <img src="assets/images/logo-design.png" alt="Logo design">
-        <p>Design is where creativity meets purpose—turning ideas into visuals that inspire.</p>
-        <a href="#contact">Hire Me</a>
-      </div><!-- .item -->
-      <div class="item">
-        <h3>Packaging design</h3>
-        <img src="assets/images/packaging-design.png" alt="Packaging design">
-        <p>Package design is more than aesthetics—it's the first impression, the silent storyteller, and the bridge between brand and consumer.</p>
-        <a href="#contact">Hire Me</a>
-      </div><!-- .item -->
-      <div class="item">
-        <h3>3D image manipulation</h3>
-        <img src="assets/images/3d-image-design.png" alt="3D image manipulation">
-        <p>3D image manipulation blends creativity and technology, transforming visuals into immersive, lifelike experiences.</p>
-        <a href="#contact">Hire Me</a>
-      </div><!-- .item -->
-    </div>
-  </section><!-- #service -->
-  <section id="portfolio">
-    <h2 class="center">Portfolio -My past work samples</h2>
-    <div class="content portfolio--content">
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-one.jpg" alt="logo design">
-      </div><!-- item -->
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-two.jpg" alt="logo design">
-      </div><!-- item -->
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-three.png" alt="logo design">
-      </div><!-- item -->
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-four.jpg" alt="logo design">
-      </div><!-- item -->
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-five.jpg" alt="logo design">
-      </div><!-- item -->
-      <div class="item">
-        <h3>my Project</h3>
-        <img src="assets/images/project-six.jpg" alt="logo design">
-      </div><!-- item -->
-    </div>
-  </section><!-- portfolio -->
-  <section id="testimonial">
-    <h2>Testimonial -What clients are saying about me</h2>
-    <div class="content testimonial--content">
-      <div class="item">
-        <figure>
-          <blockquote cite="https://www.h.net/bnw/four.html">
-              <p>Working with iF iMAGE was an absolute game-changer! Their photography and design skills are unmatched, bringing our vision to life in ways we never imagined. The attention to detail, creativity, and professionalism throughout the entire process made it an incredible experience. Highly recommend for anyone looking for exceptional work that truly stands out!</p>
-          </blockquote>
-          <figcaption>—Herveira45, <cite>CEO, iNGOBYI Design</cite></figcaption>
-        </figure>
-      </div><!-- item -->
-      <div class="item">
-     
-      </div><!-- item -->
-    </div><!-- .testimonial--content -->
-  </section><!-- testimonial -->
-  <section id="pricing" 
-  data-aos="fade-up"
-  data-aos-duration="1000"
-  data-aos-offset="50"
-  >
-    <h2 class="center">Pricing</h2>
-    <p class="center">I charge RWF3000/hour (RWF). But if you need any of the following tasks done, see the fixed price below.</p>
-    <div class="pricing--content">
-      <div class="item">
-        <h3>Logo design</h3>
-        <p class="price">RWF5000</p>
-        <img src="assets/images/logo-design.png" alt="logo design price">
-        <p class="description">1 Professional Logo Designs in transparent format (png).</p>
-        <a href="#contact">Hire me</a>
-      </div><!-- item -->
-      <div class="item">
-        <h3>Packaging design</h3>
-        <p class="price">RWF4500</p>
-        <img src="assets/images/packaging-design.png" alt="packaging design price">
-        <p class="description">Print ready design label or packaging for one product.</p>
-        <a href="#contact">Hire me</a>
-      </div><!-- item -->
-      <div class="item">
-        <h3>Illustrate album cover</h3>
-        <p class="price">RWF5370</p>
-        <img src="assets/images/3d-image-design.png" alt="3d image design price">
-        <p class="description">Hi-res front cover image for streaming platforms.</p>
-        <a href="#contact">Hire me</a>
-      </div><!-- item -->
-    </div><!-- pricing--content -->
-  </section><!-- #pricing-->
-  <section id="contact">
-    <div class="content">
-      <h2 class="center">Contact Me</h2>
-      <p class="center contact-detail">I’m Ishimwe Faustin, a passionate photographer & designer dedicated to capturing stunning moments and crafting visually compelling designs. </p>
-      <address>
-        <p>Email Me: <a href="mailto:fosteofficial5@gmail.com">fosteofficial5@gmail.com</a></p>
-        <p></p>Call me: <a href="tel:+250798846852">+250798846852</a></p>
-        <p>Office address: Kigali-Rwanda.</p>
-      </address>
-    </div>
-  </section>
-  <div class="social-share"
-  data-aos="fade-up"
-  data-aos-offset="200"
-  data-aos-anchor-placement="center-top"
-  >
-    <a href="https://www.facebook.com/foste" target="_blank"><img src="assets/svg/facebook.svg" alt="share on facebook"></a>
-    <a href="https://instagram/__foste__" target="_blank"><img src="assets/svg/twitter.svg" alt="share on twitter"></a>
-    <a href="https://pinterest.com/pin/create/button/" target="_blank"><img src="assets/svg/pinterest.svg" alt="share on pinterest"></a>
-    <a href="https://www.linkedin.com/" target="_blank"><img src="assets/svg/linkedin.svg" alt="share on linkedin"></a>
+    </section>
+    <!-- end slider section -->
   </div>
-  <footer class="site-footer">
-    <div class="content site-footer--content">
-      <div class="footer-left">
-        <img src="assets/images/logo-footer.png" alt="logo">
-        <p>I took imagination and turn into reality!🙂</p>
-      </div>
-      <div class="footer-right">
-        <address>
-          <p>Email Me: <a href="mailto:fosteofficial5@gmail.com">fosteofficial5@gmail.com</a></p>
-          <p></p>Call me: <a href="+250798846852">+250798846852</a></p>
-          <p>Office address: Kigali-Rwanda<br>
-            </p>
-        </address>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Me
+              </h2>
+              <p>
+                Passionate about capturing the beauty of life's moments, I use my lens to tell stories, evoke emotions, and preserve memories. Every shot reflects my love for creativity, detail, and authenticity
+              </p>
+              
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="copyright-notice">
-      <p>&copy; <time datetime="2022">2025,</time> All rights reserved by iF iMAGE</p>
+    
+        
+          <img src="images/play.pn" alt="" />
+        </a>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tn2vaKtUwKY?si=lCVcNLnRX7EfQCeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- gallery section -->
+  <section class="gallery_section layout_padding-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              My Gallery
+            </h2>
+            <h4>
+              Welcome to my Gallery
+            </h4>
+            <p>
+              Explore the curated collection of timeless art, photography, and design.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery_container">
+      <div class="gallery_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="gallery_box">
+          <div class="box b1">
+            <div class="img-box">
+              <img src="images/gallery-1.jpg" alt="" />
+              <h5>
+                By iF
+              </h5>
+            </div>
+          </div>
+          <div class="box b2">
+            <div class="img-box">
+              <img src="images/gallery-2.jpg" alt="" />
+              <h5>
+                By iF
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="images/gallery-3.jpg" alt="" />
+              <h5>
+                By iF
+              </h5>
+            </div>
+          </div>
+          <div class="box b3">
+            <div class="img-box">
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end gallery section -->
+
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Latest Blog
+              </h2>
+              <p>
+                Have you ever wondered how a single photograph can capture an entire story? Let’s dive into the secrets behind the art of photography and why it holds so much power.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog_container">
+      <div class="blog_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="blog_box">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box b1">
+                <div class="img-box">
+                  <img src="if2.jpg" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Best photography
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post By: __foste__
+                      </h6>
+                      <h6>
+                        16-01-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                    In every photograph lies a story waiting to be told. A single image can capture a moment in time, evoke emotion, and transport the viewer to another world.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box b2">
+                <div class="img-box">
+                  <img src="if.png" alt="" />
+                </div>
+                <div class="blog-detail">
+                  <div class="blog_title">
+                    <h5>
+                      Photography
+                    </h5>
+                    <div class="blog_post">
+                      <h6>
+                        Post By: __foste__
+                      </h6>
+                      <h6>
+                        16-01-2025
+                      </h6>
+                    </div>
+                  </div>
+                  <p>
+                    Behind every great logo is a story, and ours is no different. Our logo represents the heart and soul of our brand
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              What Says Customer
+            </h2>
+            <p>
+              If you're looking for someone who can truly capture the essence of your special moments, look no further than iF iMAGE
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="client_container">
+      <div class="client_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="client_box">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box b1">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/sirboy.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                           Sirboy
+                          </h4>
+                          <p>
+                            We are beyond grateful to iF iMAGE for their exceptional work! They didn’t just take pictures – they told a story. Each photo is full of life, joy, and emotion. The level of professionalism and care they put into every shot made us feel at ease and truly special. We can't thank them enough for giving us such precious memories that we'll cherish forever.
+                          </p>
+                          <img src="images/s.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/herve.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                            Herveira45
+                          </h4>
+                          <p>
+                            From start to finish, iF iMAGE created such a fun and relaxed environment. They truly took the time to understand our vision and exceeded every expectation. The way they captured each special moment – from candid laughs to the smallest details – was simply magical. We will forever treasure these memories, thanks to their beautiful work.
+                          </p>
+                          <img src="images/quote.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="client_content-box layout_padding">
+                        <div class="img-box">
+                          <img src="images/client.png" alt="" />
+                        </div>
+                        <div class="detail-box">
+                          <h4>
+                            DoD
+                          </h4>
+                          <p>
+                            Working with iF iMAGE was an absolute dream! Their creativity and attention to detail are unmatched. Every shot felt like a work of art, capturing not only the moments but the emotions and essence of the day. They have an incredible eye for natural beauty and know exactly how to make you feel comfortable in front of the camera. The photos are beyond stunning – we couldn't be happier with the results! The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          </p>
+                          <img src="images/quote.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box b2">
+                <div class="camera_img-box">
+                  <img src="images/camera.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Contact Me!
+          </h2>
+        </div>
+        <div class="info_main">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="info_contact ">
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/location.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                     Rwanda
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/mail.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      fosteofficial5@gmail.com
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/call.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Call +250798846852
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3">
+              <div class="info_link-box">
+                <ul>
+                  <li class=" ">
+                    <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="">
+                    <a class="" href="about.html">About </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="gallery.html">Gallery </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="blog.html">Blog </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="testimonial.html">Testimonial </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <footer>
+              
+              <div class="social-media-icons">
+                <a href="https://www.facebook.com/uwineza.muhongerwa/" target="_blank" class="social-icon facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/__foste__/" target="_blank" class="social-icon instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </footer>
+<style>
+  /* Footer Styling */
+footer {
+  text-align: center;
+  
+  color: white;
+  margin-top: 40px;
+}
+
+/* Social Media Icons Container */
+.social-media-icons {
+  margin-top: 15px;
+}
+
+/* Individual Social Media Icon */
+.social-icon {
+  color: white;
+  font-size: 24px; /* Adjust size of the icons */
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect for Icons */
+.social-icon:hover {
+  color: #ff6347; /* Change color when hovered */
+}
+
+/* Optional: Add specific colors for each icon */
+.social-icon.facebook:hover {
+  color: #3b5998; /* Facebook color */
+}
+
+.social-icon.twitter:hover {
+  color: #00acee; /* Twitter color */
+}
+
+.social-icon.instagram:hover {
+  color: #e1306c; /* Instagram color */
+}
+
+</style>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+        <a href="https://fosteofficial5.github.io/ifblog/">iF iMAGE</a>
+      </p>
     </div>
   </footer>
-  <script src="js/script.js"></script>
-  <!-- aos -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <img src="images/facebook.png">
 </body>
+
 </html>

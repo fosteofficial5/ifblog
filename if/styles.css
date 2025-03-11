@@ -1,0 +1,102 @@
+/* Reset margins and padding for body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background Setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero/Intro Section */
+.intro {
+    position: relative;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Content inside the intro */
+.intro-content {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Title Animation */
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-out forwards;
+}
+
+/* Description Text Animation */
+.intro-description {
+    font-size: 24px;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards 1s; /* Delay after title */
+}
+
+/* Call-to-action Button Animation */
+.cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #3498db;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Section below the intro (fade-in effect) */
+#services {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#services h2 {
+    font-size: 32px;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 1.5s; /* Delay for smooth appearance */
+}
+
+/* Keyframe animations */
+
+/* Fade-in effect for title and elements */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Fade-in + slide-up effect */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Slide-in from the left for title */
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
